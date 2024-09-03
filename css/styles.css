@@ -53,7 +53,7 @@ body, html {
 /* Estilo para iframes */
 .slide_iframe {
     width: 100%;          /* Usar 100% en lugar de max-width */
-    height: 70vh;         /* Ajustar la altura en porcentaje de la vista */
+    height: 100vh;         /* Ajustar la altura en porcentaje de la vista */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 10px 0;
