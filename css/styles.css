@@ -52,11 +52,13 @@ body, html {
 
 /* Estilo para iframes */
 .slide_iframe {
-    max-width: 100%;
-    max-height: 100vh;
-    margin: 10px 0;
+    width: 100%;          /* Usar 100% en lugar de max-width */
+    height: 70vh;         /* Ajustar la altura en porcentaje de la vista */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    border: none;         /* Asegúrate de que no haya borde alrededor del iframe */
+    overflow: hidden;     /* Evita cualquier overflow innecesario */
 }
 
 button {
